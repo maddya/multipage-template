@@ -1,10 +1,88 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
+
+body {
+	font-family: Raleway, Lato, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #fff;
+}
+
+
+
+h1, h2, nav {
+	font-family: Montserrat, Raleway, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2 {
+	color: #444;
+}
+
+nav {
+	position: fixed;
+	background-color: #181C22;
+	width: 100%;
+	z-index: 1000;
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+nav a, footer a {
+	text-decoration: none;
+	color: #777;
+}
+
+li {
+	display: inline;
+	padding: 1em;
+	font-size: 16px;
+	font-variant: small-caps;
+}
+
+footer a {
+	font-variant: small-caps;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+nav a:visited, footer a:visited {
+	text-decoration: none;
+	color: #888;
+}
+
+nav a:hover, nav a:active, footer a:hover, footer a:active {
+	color: #eee;
+	text-decoration: none;
+}
+
+nav a:link, footer a:link {
+	text-decoration: none;
+}
+
+
+nav a, footer a {
+	text-decoration: none;
+}
+
+footer a {
+	padding-left: .5em;
+	padding-right: .5em;
+	font-family: Montserrat;
+}
+
 header {
 	border-bottom:1px solid #e3e3e3;
 	text-align: center
 }
 
 footer {
-	position:fixed;
 	bottom:10px;
 	border-top:1px solid #e3e3e3;
 	width:100%;
@@ -12,3 +90,252 @@ footer {
 	text-align:center;
 	padding:10px;
 }
+
+#home img {
+	float: right;
+	max-height: 300px;
+	margin-left: 1em;
+	border-radius: 50%;
+}
+
+#home h2, #projects h2, #contact h2{
+	font-family: Montserrat, Raleway, 'Crimson Text', serif;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-variant: small-caps;
+	color: #aaa;
+}
+
+.outerProject {
+	min-height: 400px;
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+.projectDesc {
+	text-align: left;
+}
+
+#dawg-coffee, #police-shooting, #tweety, #spotify-challenge, #crud-web-app {
+	background-size: contain;
+	height: 400px;
+	width: 400px;
+	padding-right: 20px;
+}
+
+#dawg-coffee {
+	background-image: url('../img/dawg-coffee.jpg');
+}
+
+#police-shooting {
+	background-image: url('../img/police-shooting.png');
+}
+
+#tweety {
+	background-image: url('../img/tweety.jpg');
+}
+
+#spotify-challenge {
+	background-image: url('../img/headphones.jpg');
+}
+
+#crud-web-app {
+	background-image: url('../img/crud-web-app.jpg');
+}
+
+.projectPic {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+.darken {
+	height: 400px;
+    width: 400px;
+    background: #000;
+    opacity: 0;
+    color: #fff;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    padding-top: 50%;
+
+}
+
+.darken a, .darken a:hover, .darken a:visited, .darken a:active, .darken a:link {
+	text-decoration: none;
+	opacity: 1;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-weight: 400;
+	color: #ddd;
+	border: solid 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	font-family: Montserrat;
+}
+
+.darken a:hover {
+	color: #fff;
+}
+
+h1 {
+	color: #222;
+}
+
+#rights {
+	font-size: 12px;
+}
+
+#contactPic {
+	max-height: 300px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+}
+
+#contactPic img {
+	height: 100%;
+	width: 100%;
+}
+
+#contactInfo {
+	font-family: Raleway;
+	font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 16px;
+		line-height: 1.8em;
+	}
+
+	h1, h2 {
+		text-align:center;
+		padding-left: 1em;
+	}
+	h1 {
+		margin: 0;
+		color:#fff;
+		font-weight: 700;
+	}
+	h2 {
+		color: #eee;
+	}
+
+	h1 {
+		font-size: 80px;
+		padding-top: 2em;
+	}
+	nav {
+		background-color: rgba(24, 28, 34, 0);
+		position:fixed;
+		top:0;
+		text-align: right;
+
+	}
+	li {
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+	header {
+		background-image: url('../img/clouds (2).jpg');
+		background-size: cover;
+		background-repeat: none;
+		background-attachment: fixed;
+		color: #FFF;
+		text-align: right;
+		min-height: 100%;
+	}
+
+	#holder {
+		height: 100%;
+		width: 100%;
+	 	top:0px;
+	    left:0px;
+	    position: absolute;
+	}
+	.main {
+		position: relative;
+	}
+	.down {
+		width: 100%;
+		text-align: center;
+		font-size: 50px;
+		color: #ddd;
+		bottom: 0;
+		position: absolute;
+		padding-bottom: 30px;
+		text-decoration: none;
+		display: none;
+	}
+
+	.down a {
+		color: #ddd;
+		text-decoration: none;
+	}
+
+	.down a:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+	.down a:visited {
+		color: #ddd;
+		text-decoration: none;
+	}
+	#text {
+		opacity: 1;
+	}
+	
+	#mainContent h2 {
+		font-size: 40px;
+		text-align: center;
+		color: #444;
+	}
+
+	#home, #projects, #contact {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	#home h2, #projects h2, #contact h2 {
+		font-size: 50px;
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
+
+	.projectDesc {
+		padding-left: 60px;
+	}
+
+	nav a:visited, footer a:visited {
+		text-decoration: none;
+		color: #777;
+	}
+
+	nav a:hover, nav a:active, footer a:hover, footer a:active{
+		color: #111;
+		text-decoration: none;
+	}
+
+	nav a:link, footer a:link {
+		text-decoration: none;
+	}
+
+
+	nav a, footer a {
+		text-decoration: none;
+	}
+
+	#mainContent {
+		min-height: screen.height;
+	}
+
+	#contactPic {
+		padding-bottom: 500px;
+	}
+
+
+}
+

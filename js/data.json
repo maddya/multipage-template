@@ -1,0 +1,34 @@
+{
+	"home" : {"title": "a brief background",
+	"paragraphs": 
+		[
+		"Hey there, thanks for stopping by! I'm a 20 year old student at the University of Washington, studying Informatics with a focus in Data Science and User Experience.", 
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id doloribus repudiandae ab vero possimus quaerat ex quod eaque nihil culpa tempora nesciunt, adipisci magni. Doloremque nemo reiciendis, nisi architecto rem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias deserunt iusto ipsa quasi tempore eaque cumque odio labore consequuntur aut maxime, ratione nulla natus, quaerat sint numquam reprehenderit rem eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam neque enim aliquid modi, ratione dicta rem cumque repellat soluta iusto nemo repudiandae id quibusdam quam nesciunt illo facilis esse dolores.",
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias deserunt iusto ipsa quasi tempore eaque cumque odio labore consequuntur aut maxime, ratione nulla natus, quaerat sint numquam reprehenderit rem eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam neque enim aliquid modi, ratione dicta rem cumque repellat soluta iusto nemo repudiandae id quibusdam quam nesciunt illo facilis esse dolores.",
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id doloribus repudiandae ab vero possimus quaerat ex quod eaque nihil culpa tempora nesciunt, adipisci magni. Doloremque nemo reiciendis, nisi architecto rem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias deserunt iusto ipsa quasi tempore eaque cumque odio labore consequuntur aut maxime, ratione nulla natus, quaerat sint numquam reprehenderit rem eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam neque enim aliquid modi, ratione dicta rem cumque repellat soluta iusto nemo repudiandae id quibusdam quam nesciunt illo facilis esse dolores."
+		]
+	},
+	"contact" : {
+	"title": "get in touch",
+	"name": "Maddy Austin",
+	"info" :
+		[
+		"4535 18th Ave NE</br>Seattle, WA 98105",
+		"425.463.6104",
+		"maddya@uw.edu"
+		]
+
+	},
+	"projects" : {
+	"title": "my latest projects",
+	"projects": 
+		[
+			{"name": "Dawg Coffee", "id":"dawg-coffee", "link":"http://students.washington.edu/maddya/info343/dawg-coffee/", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque iste fugiat numquam officiis illo temporibus soluta expedita dignissimos non molestias, maxime mollitia odio repudiandae beatae iusto ab sunt eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem temporibus, earum? Delectus corporis eaque beatae officiis ducimus aspernatur totam cum consequatur nisi assumenda quasi veniam perferendis ad, facere labore quisquam."},
+			{"name": "Police Shooting", "id":"police-shooting", "link":"http://students.washington.edu/maddya/info343/police-shooting/", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque iste fugiat numquam officiis illo temporibus soluta expedita dignissimos non molestias, maxime mollitia odio repudiandae beatae iusto ab sunt eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem temporibus, earum? Delectus corporis eaque beatae officiis ducimus aspernatur totam cum consequatur nisi assumenda quasi veniam perferendis ad, facere labore quisquam."},
+			{"name": "Tweety and the Tom-Cats", "id":"tweety", "link":"http://students.washington.edu/maddya/info343/", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque iste fugiat numquam officiis illo temporibus soluta expedita dignissimos non molestias, maxime mollitia odio repudiandae beatae iusto ab sunt eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem temporibus, earum? Delectus corporis eaque beatae officiis ducimus aspernatur totam cum consequatur nisi assumenda quasi veniam perferendis ad, facere labore quisquam."},
+			{"name": "Spotify Challenge", "id":"spotify-challenge", "link":"http://students.washington.edu/maddya/info343/spotify-template/", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque iste fugiat numquam officiis illo temporibus soluta expedita dignissimos non molestias, maxime mollitia odio repudiandae beatae iusto ab sunt eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem temporibus, earum? Delectus corporis eaque beatae officiis ducimus aspernatur totam cum consequatur nisi assumenda quasi veniam perferendis ad, facere labore quisquam."},
+			{"name": "CRUD Web App", "id":"crud-web-app", "link":"http://students.washington.edu/maddya/info343/crud-web-app/", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque iste fugiat numquam officiis illo temporibus soluta expedita dignissimos non molestias, maxime mollitia odio repudiandae beatae iusto ab sunt eligendi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem temporibus, earum? Delectus corporis eaque beatae officiis ducimus aspernatur totam cum consequatur nisi assumenda quasi veniam perferendis ad, facere labore quisquam."}
+		]
+	}
+
+}
